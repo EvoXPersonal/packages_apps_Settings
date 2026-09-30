@@ -4674,6 +4674,12 @@
         </activity>
 
         <activity
+            android:name="com.evolution.settings.fragments.ApplockSandboxRedirect"
+            android:theme="@style/Theme.SubSettingsBase"
+            android:excludeFromRecents="true"
+            android:exported="false" />
+
+        <activity
             android:name="com.evolution.settings.fragments.uibench.JitterTestActivity"
             android:theme="@style/Theme.SubSettingsBase"
             android:exported="true">
